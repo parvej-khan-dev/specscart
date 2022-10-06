@@ -8,7 +8,7 @@ const Navbar = () => {
           <AiOutlineMenu className="w-[58px] h-[30px] text-[#321940] mx-1" />
           <img
             src={require("./Test Folder/logo.png")}
-            className="mr-[5.5rem] h-[40px] w-[50px]sm:h-9 "
+            className="mr-[2.5rem] h-[40px] w-[50px]sm:h-9 "
             alt="specscart Logo"
           />
         </a>
