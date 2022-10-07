@@ -10,22 +10,27 @@ const Review = () => {
         <img
           src={require("./Test Folder/5cb30b93b42e95ee807cc073b66ea1a2.png")}
           className="w=[50px] h-[50px] opacity-30 "
+          alt="review-cx"
         />
         <img
           src={require("./Test Folder/808675.png")}
           className="w=[60px] h-[60px]"
+          alt="review-cx"
         />
         <img
           src={require("./Test Folder/freepressjournal_import_2017_10_Tom-Cruise.png")}
           className="w=[87px] h-[87px]"
+          alt="review-cx"
         />
         <img
           src={require("./Test Folder/5cb30b93b42e95ee807cc073b66ea1a2.png")}
           className="w=[60px] h-[60px]"
+          alt="review-cx"
         />
         <img
           src={require("./Test Folder/freepressjournal_import_2017_10_Tom-Cruise.png")}
           className="w=[50px] h-[50px] opacity-30"
+          alt="review-cx"
         />
       </div>
       <h2 className="text-[20px] font-bold my-2 text-slate-700">
@@ -90,7 +95,9 @@ const Review = () => {
         super fast and efficient! The website is very easy to use and very user
         friendly. While ordony glasses, I had
       </p>
-      <h2 className="text-[18px] text-[#08b1a2] font-bold mt-2 ">Learn More</h2>
+      <h2 className="text-[18px] text-[#08b1a2] font-bold mt-2 text-center ">
+        Learn More
+      </h2>
       <div class="my-5">
         <ul class="flex items-center justify-center">
           {/* <!-- Note that we have one <li> for each image in our gallery --></li> */}
