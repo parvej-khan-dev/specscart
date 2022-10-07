@@ -3,9 +3,12 @@ import { HiOutlineHeart } from "react-icons/hi";
 
 const Product = () => {
   return (
-    <div className="my-10 relative">
+    <div className="my-10 relative lg:m-10">
       <HiOutlineHeart className="text-left absolute top-1 text-slate-600  right-4 text-2xl" />
-      <img src={require("./Test Folder/Glass1.jpg")} className="pt-5" />
+      <img
+        src={require("./Test Folder/Glass1.jpg")}
+        className="pt-5 lg:w-[350px]"
+      />
       <ul class="flex items-center justify-center">
         {/* <!-- Note that we have one <li> for each image in our gallery --></li> */}
         <li class="h-4 w-4 rounded-full mx-1 cursor-pointer bg-black"></li>

@@ -14,32 +14,64 @@ export default class Feed extends React.Component {
       arrows: false,
       infinite: true,
       speed: 500,
-      slidesToShow: 2,
+      slidesToShow: 4,
       slidesToScroll: 1,
       appendDots: (dots) => {
-        return <MagicSliderDots dots={dots} numDotsToShow={0} dotWidth={0} />;
+        return <MagicSliderDots dots={dots} numDotsToShow={3} dotWidth={20} />;
       },
     };
 
     return (
       <>
-        <h2 className="text-[22px] text-center text-slate-700 font-bold mx-2  mt-10">
-          Feed.
+        <h2 className="text-[22px] lg:text-3xl text-center text-slate-700 font-bold mx-2  mt-10">
+          Our Feed.
         </h2>
-        <Slider {...settings}>
-          <div className="p-2 mt-[-24px]">
-            <img src={require("./Test Folder/feed1.png")} className="m-10" />
-          </div>
-          <div className="p-2 mt-[-24px]">
-            <img src={require("./Test Folder/feed2.png")} className="m-10" />
-          </div>
-          <div className="p-2 mt-[-24px]">
-            <img src={require("./Test Folder/feed1.png")} className="m-10" />
-          </div>
-          <div className="p-2 my-[-24px]">
-            <img src={require("./Test Folder/feed2.png")} className="m-10" />
-          </div>
-        </Slider>
+        <div className="lg:m-20">
+          <Slider {...settings}>
+            <div className="p-2 lg:p-1 mt-[-24px]">
+              <img
+                src={require("./Test Folder/slider4.png")}
+                className="m-10 lg:w-[450px]"
+              />
+            </div>
+            <div className="p-2 lg:p-1 mt-[-24px]">
+              <img
+                src={require("./Test Folder/feed2.png")}
+                className="m-10  lg:w-[450px]"
+              />
+            </div>
+            <div className="p-2 lg:p-1 mt-[-24px]">
+              <img
+                src={require("./Test Folder/slider3.png")}
+                className="m-10  lg:w-[450px]"
+              />
+            </div>
+            <div className="p-2 lg:p-1 my-[-24px]">
+              <img
+                src={require("./Test Folder/feed2.png")}
+                className="m-10  lg:w-[450px]"
+              />
+            </div>
+            <div className="p-2 lg:p-1 my-[-24px]">
+              <img
+                src={require("./Test Folder/slider3.png")}
+                className="m-10  lg:w-[450px]"
+              />
+            </div>
+            <div className="p-2 lg:p-1 my-[-24px]">
+              <img
+                src={require("./Test Folder/slider4.png")}
+                className="m-10  lg:w-[450px]"
+              />
+            </div>
+            <div className="p-2 lg:p-1 my-[-24px]">
+              <img
+                src={require("./Test Folder/slider5.png")}
+                className="m-10  lg:w-[450px]"
+              />
+            </div>
+          </Slider>
+        </div>
 
         <button class="border-slate-700 border-2  text-slate-700 font-semibold py-2 px-5 my-4 rounded-full mx-auto   flex justify-around items-center ">
           Follow @Specscartuk

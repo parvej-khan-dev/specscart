@@ -2,14 +2,14 @@ import React from "react";
 
 const Review = () => {
   return (
-    <div>
-      <h2 className="text-[20px] font-bold my-2 text-slate-600">
+    <div className="lg:mx-60">
+      <h2 className="text-[20px] font-bold my-2 text-slate-600 lg:text-3xl lg:mt-10">
         Google & Fb Reviews
       </h2>
-      <div className="image-cointner flex items-center justify-around my-5">
+      <div className="image-cointner flex items-center justify-around my-5 ">
         <img
           src={require("./Test Folder/5cb30b93b42e95ee807cc073b66ea1a2.png")}
-          className="w=[50px] h-[50px] opacity-30 "
+          className="w=[50px] h-[50px] opacity-30  "
           alt="review-cx"
         />
         <img

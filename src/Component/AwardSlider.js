@@ -21,12 +21,18 @@ export default class AwardSlider extends React.Component {
     };
 
     return (
-      <Slider {...settings}>
+      <Slider {...settings} >
         <div>
-          <img src={require("./Test Folder/slider2.png")} />
+          <img
+            src={require("./Test Folder/slider2.png")}
+            className="w-[250px]"
+          />
         </div>
         <div>
-          <img src={require("./Test Folder/slider1.png")} />
+          <img
+            src={require("./Test Folder/slider1.png")}
+            className="w-[250px]"
+          />
         </div>
       </Slider>
     );
