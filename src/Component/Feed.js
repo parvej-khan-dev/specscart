@@ -73,7 +73,10 @@ export default class Feed extends React.Component {
           </Slider>
         </div>
 
-        <button class="border-slate-700 border-2  text-slate-700 font-semibold py-2 px-5 my-4 rounded-full mx-auto   flex justify-around items-center ">
+        <button
+          class="border-slate-700 border-2  text-slate-700 font-semibold 
+        py-2 px-5 my-4 lg:mb-8 rounded-full mx-auto   flex justify-around items-center "
+        >
           Follow @Specscartuk
           <div className="flex mx-2 justify-around ">
             <span className="mx-1">

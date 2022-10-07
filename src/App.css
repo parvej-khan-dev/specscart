@@ -64,3 +64,9 @@
   font-size: 8px;
   line-height: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  .moblie-nav li {
+    display: none;
+  }
+}

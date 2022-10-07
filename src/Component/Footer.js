@@ -1,9 +1,10 @@
 import React from "react";
+import "../App.css";
 
 const Footer = () => {
   return (
     <div>
-      <footer className="text-center bg-[#5f336f] text-white">
+      <footer className="text-center bg-[#301339] text-white">
         <div className="container px-6 pt-6">
           <img
             src={require("./Test Folder/index-removebg-preview.png")}
@@ -138,13 +139,157 @@ const Footer = () => {
             </a>
           </div>
           <div>
-            <form action="">
-              <div className="grid md:grid-cols-3 gird-cols-1 gap-4 flex justify-center items-center">
-                <div className="md:ml-auto md:mb-6">
-                  <p className="">
-                    <strong>Sign up for our newsletter</strong>
-                  </p>
-                </div>
+            <hr></hr>
+          </div>
+          {/* desktop menu  */}
+
+          {/* moblie menu  */}
+          <div className="moblie-nav grid lg:grid-cols-6 md:grid-cols-2 ">
+            <div className="mb-6">
+              <ul className="list-none mb-0 lg:text-left lg:m-2 ">
+                <b> GLASSES </b>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Round Glasses
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Wayfarer Glasses
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Cat Eye Glasses
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Rimless
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Verifocal Glasses
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Transitiors Glasses
+                  </a>
+                </li>
+              </ul>
+            </div>
+            {/* second menu */}
+            <div className="mb-6">
+              <ul className="list-none mb-0  lg:text-left lg:m-2 ">
+                <b>SUNGLASSES</b>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Prescription Sunglasses
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Polarised Sunglasses
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Sunglasses
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Wayfare Sunglasses
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Cat Eye Sunglasses
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Round Sunglasses
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Aviator Sunglasses
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="mb-6">
+              <ul className="list-none mb-0 lg:text-left lg:my-2  ">
+                <b>HELP & FAQ</b>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Your Prescription
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Digital Blue Glasses
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Anti Reflective Lenses
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    How to order
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Delivery Information
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Free Returns
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="mb-6">
+              <ul className="list-none mb-0 lg:text-left lg:my-2  ">
+                <b>ABOUT US</b>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Our Story
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Contact Us
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Our Blog
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li className="my-2 text-[16px]">
+                  <a href="#!" className="text-white ">
+                    Franchise
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* form  */}
+            <form action="" className="lg:col-span-2 lg:my-5">
+              <div className=" flex justify-center items-center ">
                 <div className="md:mb-6">
                   <input
                     type="text"
@@ -169,59 +314,20 @@ const Footer = () => {
                     placeholder="Email address"
                   />
                 </div>
-                <div className="md:mr-auto mb-6">
+                <div className="md:mr-auto mb-6 lg:mx-2">
                   <button
                     type="submit"
-                    className="inline-block px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                    className="inline-block px-6 py-2 border-2
+                     border-white text-white font-medium text-xs
+                      leading-tight uppercase rounded hover:bg-black 
+                      hover:bg-opacity-5 focus:outline-none focus:ring-0 
+                      transition duration-150 ease-in-out"
                   >
                     Subscribe
                   </button>
                 </div>
               </div>
             </form>
-            <hr></hr>
-          </div>
-
-          <div className="grid lg:grid-cols-4 md:grid-cols-2">
-            <div className="mb-6">
-              <ul className="list-none mb-0 ">
-                <li className="my-2 text-[16px]">
-                  <a href="#!" className="text-white ">
-                    Glasses
-                  </a>
-                </li>
-                <li className="my-2 text-[16px]">
-                  <a href="#!" className="text-white ">
-                    Sunglass
-                  </a>
-                </li>
-                <li className="my-2 text-[16px]">
-                  <a href="#!" className="text-white ">
-                    Lenses
-                  </a>
-                </li>
-                <li className="my-2 text-[16px]">
-                  <a href="#!" className="text-white ">
-                    Services
-                  </a>
-                </li>
-                <li className="my-2 text-[16px]">
-                  <a href="#!" className="text-white ">
-                    Help & Faq
-                  </a>
-                </li>
-                <li className="my-2 text-[16px]">
-                  <a href="#!" className="text-white ">
-                    About Us
-                  </a>
-                </li>
-                <li className="my-2 text-[16px]">
-                  <a href="#!" className="text-white ">
-                    BRANDS
-                  </a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
         <div
